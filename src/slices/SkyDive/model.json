@@ -1,0 +1,41 @@
+{
+  "id": "sky_dive",
+  "type": "SharedSlice",
+  "name": "SkyDive",
+  "description": "SkyDive",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "senetence": {
+          "type": "Text",
+          "config": {
+            "label": "Senetence",
+            "placeholder": ""
+          }
+        },
+        "flavour": {
+          "type": "Select",
+          "config": {
+            "label": "Flavour",
+            "placeholder": "",
+            "options": [
+              "strawberryLemonade",
+              "lemonLime",
+              "grape",
+              "watermelon",
+              "blackCherry"
+            ],
+            "default_value": "strawberryLemonade"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
